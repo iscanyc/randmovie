@@ -1,1 +1,75 @@
-@import"https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap";@import"https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap";body{font-weight:600;background-image:url("https://wallpaperset.com/w/full/2/f/c/466272.jpg");background-size:100%;background-repeat:no-repeat;background-attachment:fixed;background-position:center}.main{text-align:center}.main h1{font-family:"Metal Mania",cursive;color:#f9f9f9;font-weight:700;font-size:76px;animation-name:flash;animation-timing-function:ease;animation-duration:1.3s;animation-delay:1s;animation-iteration-count:100;animation-fill-mode:initial}.main h3{font-size:48px;font-family:"Raleway",sans-serif}@keyframes flash{0%{opacity:10%}10%{opacity:10%}20%{opacity:20%}30%{opacity:30%}40%{opacity:40%}50%{opacity:50%}60%{opacity:60%}70%{opacity:70%}80%{opacity:80%}90%{opacity:90%}100%{opacity:100%}}/*# sourceMappingURL=style.css.map */
+@import "https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap";
+
+body {
+    font-weight: 600;
+    background-image: url("https://python.is-inside.me/dSLG3QoR.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.main {
+    margin-top: 180px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.main h1 {
+    font-family: "Metal Mania", cursive;
+    color: #f9f9f9;
+    font-weight: 700;
+    font-size: 76px;
+    animation-name: flash;
+    animation-timing-function: ease;
+    animation-duration: 1.3s;
+    animation-delay: 1s;
+    animation-iteration-count: 99999999;
+    animation-fill-mode: initial
+
+}
+
+.main .cs {
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 10%
+    }
+    10% {
+        opacity: 10%
+    }
+    20% {
+        opacity: 20%
+    }
+    30% {
+        opacity: 30%
+    }
+    40% {
+        opacity: 40%
+    }
+    50% {
+        opacity: 50%
+    }
+    60% {
+        opacity: 60%
+    }
+    70% {
+        opacity: 70%
+    }
+    80% {
+        opacity: 80%
+    }
+    90% {
+        opacity: 90%
+    }
+    100% {
+        opacity: 100%
+    }
+}
+
+/*# sourceMappingURL=style.css.map */
