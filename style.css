@@ -1,75 +1,89 @@
-@import "https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap";
-@import "https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap";
-
+@import url(//db.onlinewebfonts.com/c/548e77e130ea884c764acabe1ba1ad63?family=0Arame);
 body {
-    font-weight: 600;
-    background-image: url("https://python.is-inside.me/dSLG3QoR.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+  margin: 0;
+  padding: 0;
+  font-family: Arame, serif;
 }
 
-.main {
-    margin-top: 180px;
-    align-items: center;
-    text-align: center;
-
+header {
+  background-image: url(assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
-
-.main h1 {
-    font-family: "Metal Mania", cursive;
-    color: #f9f9f9;
-    font-weight: 700;
-    font-size: 76px;
-    animation-name: flash;
-    animation-timing-function: ease;
-    animation-duration: 1.3s;
-    animation-delay: 1s;
-    animation-iteration-count: 99999999;
-    animation-fill-mode: initial
-
+header .nav {
+  display: inline-flex;
+  flex-direction: row;
 }
-
-.main .cs {
-    font-size: 48px;
-    font-family: "Raleway", sans-serif;
+header .nav .menu {
+  position: relative;
+  display: flex;
 }
-
-@keyframes flash {
-    0% {
-        opacity: 10%
-    }
-    10% {
-        opacity: 10%
-    }
-    20% {
-        opacity: 20%
-    }
-    30% {
-        opacity: 30%
-    }
-    40% {
-        opacity: 40%
-    }
-    50% {
-        opacity: 50%
-    }
-    60% {
-        opacity: 60%
-    }
-    70% {
-        opacity: 70%
-    }
-    80% {
-        opacity: 80%
-    }
-    90% {
-        opacity: 90%
-    }
-    100% {
-        opacity: 100%
-    }
+header .nav .menu a:first-child {
+  font-size: 32px;
+}
+header .nav .menu a:first-child:hover {
+  background: none;
+}
+header .nav .profile {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: auto;
+}
+header .nav .profile a {
+  padding: 35.4px 21px;
+  font-size: 16px;
+}
+header .nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 25px 21px;
+  color: #e7305b;
+}
+header .nav a:hover {
+  background: rgba(231, 48, 91, 0.2);
+  transition: 400ms all;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  white-space: pre;
+  flex-direction: column;
+}
+header .container .head {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  color: #000 !important;
+}
+header .container .head h1 {
+  margin: 2px;
+}
+header .container .head .dice {
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 15px;
+  font-size: 76px;
+  border-radius: 48%;
+  outline: none;
+  background: none;
+  color: #eeeeee;
+  border: none;
+}
+header .container .head .dice:hover {
+  transition: 400ms all ease;
+  background: rgba(231, 48, 91, 0.7);
 }
 
 /*# sourceMappingURL=style.css.map */
